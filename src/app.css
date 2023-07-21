@@ -1,0 +1,27 @@
+*{
+    background-color: rgba(18, 163, 120, 0.116);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.card img{
+    width: 200px;
+    height: 200px;
+
+}
+
+button{
+    padding: 20px;
+    outline: 0;
+    background-color:rgb(10, 116, 84) ;
+    font-size: 20px;
+    color: #fff;
+}
